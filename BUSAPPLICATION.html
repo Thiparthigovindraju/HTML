@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus APPLICATION</title>
+</head>
+<body>
+    <div style="background-color: aquamarine;" >
+       <center>
+        <img src="https://tgsrtcpass.com/images/Tsrtc_new_logo.jpg" alt="" width="100">
+        <h1>TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+        <H1>GENERAL BUS PASS APPLICATION</H1></center> 
+    </div>
+   <form>
+        <fieldset>
+            <legend><b><h2>Application Details</h2></b></legend>
+
+            <table border="0" cellpadding="10">
+
+                <tr>
+                    <td>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" value="">
+                    </td>
+                    <td>
+                        <label for="father">Father's/Guardian's Name:</label>
+                        <input type="text" id="father" name="father">
+                    </td>
+                </tr>
+
+        
+                <tr>
+                    <td>
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" id="dob" name="dob"><br><br>
+
+                        <label>Age As On:</label>
+                        <input type="text" size="1"> Year(s)
+                        <input type="text" size="1"> Month(s)
+                        <input type="text" size="1"> Day(s)
+                    </td>
+
+                    <td>
+                        <label>Gender:</label>
+                        <input type="radio" name="gender" value="Male"> Male
+                        <input type="radio" name="gender" value="Female"> Female
+                    </td>
+                </tr>
+
+        
+                <tr>
+                    <td>
+                        <label for="whatsapp">WhatsApp No:</label>
+                        <input type="number" id="whatsapp" name="whatsapp">
+                    </td>
+                    <td>
+                        <label for="aadhaar">Aadhaar No:</label>
+                        <input type="number" id="aadhaar" name="aadhaar">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="photo">Photo:</label>
+                        <input type="file" id="photo" name="photo">
+                    </td>
+                    <td>
+                        <label for="email">E-mail ID:</label>
+                        <input type="email" id="email" name="email">
+                    </td>
+                </tr>
+
+            </table>
+
+        </fieldset>
+        <fieldset>
+            <legend><b><h2>Residential Address Details</h2></b></legend>
+            <table border="0" cellpadding="10">
+             <tr>
+                <td>
+                    <label>Applicant's Address</label>
+                    <textarea></textarea>
+                </td>
+                <td>
+                    <label>Mandal</label>
+                    <select>
+                        <option>Hyderabad</option>
+                    </select>
+                </td>
+                <td>
+                    <label>Pincode</label>
+                    <input type="number">
+                </td>
+             </tr>   
+             <tr>
+                <td>
+                    <label>District</label>
+                    <select name="" id="">
+                        <option>Hyderabad</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="">Village</label>
+                    <select name="" id="">
+                        <option>Hyderabad</option>
+                        <option>Hyderabad</option>
+                    </select>
+
+                </td>
+             </tr>
+            </table>
+
+
+        </fieldset>
+        <fieldset>
+            <legend><b><h2>Pass Type Details</h2></b></legend>
+            <label>City</label>
+            <select>
+                <option>Hyderabad</option>
+            </select><br>   <br><br>
+            <label>Pass Type</label>
+            <select>
+                <option  selected>select</option>
+                <option>General</option>
+                <option>ordinary pass</option>
+                <option>metro express pass</option>
+                <option >metro deluxe pass</option>
+                <option >General ordinary Pass MTLY</option>
+             </select>
+            
+        </fieldset>
+        <fieldset>
+            <legend><b><h2>Mode of Payment & Pass Collection</h2></b></legend>
+            <labe>Payment Mode</labe>
+            <select name="" id="">
+                <option>Select Payment Mode</option>
+                <option>Payment at counter</option>
+            </select><br><br>
+            <label>Pass Delivery Mode</label>
+            <select name="" id="">
+                <option value="">Select Payment Mode</option>
+                <option value="">At counter</option>
+            </select><br><br>
+            <label>Center at which you want to collect pass</label>
+            <select>
+                <option value="Kukatpally">Kukatpally Bus Pass Center</option>
+    <option value="Abids">Abids Bus Pass Center</option>
+    <option value="Afzalgunj">Afzalgunj Bus Pass Center</option>
+    <option value="Mehdipatnam">Mehdipatnam Bus Pass Center</option>
+    <option value="ECIL">ECIL Bus Pass Center</option>
+            </select>
+        </fieldset><br> <br>
+
+       <center> <img src="data:image/jpeg;base64,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" alt="">
+<br><br>
+<input type="text"><br><br>
+<input type="submit">
+</center>
+</form>
+</body>
+</html>
