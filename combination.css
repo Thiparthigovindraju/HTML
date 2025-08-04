@@ -1,0 +1,44 @@
+.outer > .middle  > .weird > p{
+    color: brown;
+}
+
+ .weird p+span{
+    color:yellowgreen;
+}
+
+ .middle > p{
+    color: blue;
+ }
+
+ .weird ~ span{
+    color: red;
+ }
+
+ .middle div p{
+    background-color: aqua;
+ }
+ 
+
+ .outer > p{
+    color: green;
+ }
+
+ .outer>span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:yellow
+ }
+
+ article>p{
+    color:darkslategray;
+ }
+
+ article+p{
+    color: slateblue;
+ }
+
+
+ 
+
+
+
+
